@@ -1,4 +1,4 @@
-/* Write your T-SQL query statement below */ (Salary greater than Manager)
+/* Write your T-SQL query statement below */ 
 
 
 SELECT E1.NAME AS Employee
