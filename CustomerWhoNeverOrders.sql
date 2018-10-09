@@ -1,0 +1,10 @@
+/* Write your T-SQL query statement below */ (Customer Who Never Order)
+
+SELECT A.NAME AS Customers
+FROM
+(
+SELECT C.ID,C.NAME,O.CUSTOMERID
+FROM CUSTOMERS C LEFT JOIN ORDERS O
+ON C.ID = O.CUSTOMERID
+) A
+WHERE A.CUSTOMERID IS NULL 
