@@ -1,6 +1,7 @@
 # Read from the file file.txt and output all valid phone numbers to stdout.
 awk '/^([0-9]{3}-|\([0-9]{3}\) )[0-9]{3}-[0-9]{4}$/' file.txt
 
+#grep: search for specific terms in a file
 #awk and sed are completly different than grep. 
 #awk and sed are text processors. 
 #Not only do they have the ability to find what you are looking for in text, but to remove, add and modify the text as well (and much more). 
