@@ -1,4 +1,4 @@
-/* Write your T-SQL query statement below */ (Customer Who Never Order)
+/* Write your T-SQL query statement below */ 
 
 SELECT A.NAME AS Customers
 FROM
