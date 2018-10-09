@@ -1,4 +1,4 @@
-/* Write your T-SQL query statement below */ (Duplicate Emails)
+/* Write your T-SQL query statement below */ 
 
 SELECT A.Email 
 FROM(
